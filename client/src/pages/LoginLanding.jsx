@@ -1,14 +1,3 @@
-
-
-// const LoginLanding = () => {
-//     return (
-//         <div>LoginLanding</div>
-//     )
-// }
-
-// export default LoginLanding;
-
-
 import { Link } from "react-router-dom";
 
 const LoginLanding = () => {
