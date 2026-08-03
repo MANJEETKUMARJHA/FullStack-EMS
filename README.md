@@ -13,19 +13,29 @@ A comprehensive, full-stack application built to streamline HR processes, manage
 
 ## 📸 Demo Screenshots
 
-*(To display these images, create a `screenshots` folder in the root of your project and add the corresponding images as named below, or update the paths to match your image files.)*
-
 ### 1. Welcome Portal
 ![Welcome to EMS](./screenshots/welcome.png)
 
 ### 2. Admin Dashboard
 ![Admin Dashboard](./screenshots/admin-dashboard.png)
 
-### 3. Attendance Tracking
-![Attendance Tracking](./screenshots/attendance.png)
+### 3. Employee Management
+![Employees](./screenshots/employes.png)
 
-### 4. Payroll Management
+### 4. Attendance Tracking
+![Attendance Tracking](./screenshots/attentence.png)
+
+### 5. Leave Management
+![Leave Management](./screenshots/leave.png)
+
+### 6. Payroll Management
 ![Payroll Management](./screenshots/payroll.png)
+
+### 7. Payslips
+![Payslips](./screenshots/paysilps.png)
+
+### 8. Onboarding
+![Onboarding](./screenshots/onbording.png)
 
 
 ## 💻 Technologies Used
