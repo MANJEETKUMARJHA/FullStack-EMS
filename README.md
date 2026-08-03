@@ -1,24 +1,94 @@
 # Employee Management System (EMS) 🏢
 
-A comprehensive application built to streamline HR processes, manage employee records, track attendance, and handle payroll.
+A comprehensive, full-stack application built to streamline HR processes, manage employee records, track attendance, and handle payroll seamlessly. 
 
 ## 🚀 Features
 
-* **Role-Based Access Control:** Distinct dashboards for HR Admins and regular Employees.
-* **Employee Directory:** Easily add, edit, or remove employee profiles and contact details.
-* **Leave Management:** Employees can request time off, and managers can approve or deny requests.
-* **Attendance Tracking:** Automated clock-in/clock-out logging.
+* **Role-Based Access Control:** Distinct portals and dashboards for HR Admins and regular Employees.
+* **Employee Directory:** Easily add, edit, view, or remove employee profiles, contact details, and department assignments.
+* **Attendance Tracking:** Automated daily check-in/check-out logging with visual roster and late/absent tracking.
+* **Leave Management:** Employees can request time off, and managers can approve, reject, or leave requests pending.
+* **Payroll Management:** Generate payslips, oversee deductions, manage allowances, and calculate net pay efficiently.
+* **Dark/Light Mode:** Modern UI with customizable themes for better user experience.
+
+## 📸 Demo Screenshots
+
+*(To display these images, create a `screenshots` folder in the root of your project and add the corresponding images as named below, or update the paths to match your image files.)*
+
+### 1. Welcome Portal
+![Welcome to EMS](./screenshots/welcome.png)
+
+### 2. Admin Dashboard
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+### 3. Attendance Tracking
+![Attendance Tracking](./screenshots/attendance.png)
+
+### 4. Payroll Management
+![Payroll Management](./screenshots/payroll.png)
+
 
 ## 💻 Technologies Used
 
-* **Frontend:** React.js/ / HTML, CSS, JavaScript 
-* **Backend:** Node.js / Express.js /JavaScript
-* **Database:** PostgreSQL / MongoDB 
+**Frontend:**
+* React.js (v19)
+* Vite
+* TailwindCSS (v4)
+* React Router DOM
+* Framer Motion (Animations)
+* Lucide React & React Icons
+
+**Backend:**
+* Node.js
+* Express.js (v5)
+* MongoDB with Mongoose
+* JSON Web Token (JWT) for Authentication
+* Bcrypt.js for Password Hashing
+* Multer for File Uploads
 
 ## 🛠️ Installation & Setup
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+### Prerequisites
+* [Node.js](https://nodejs.org/) installed on your machine
+* [MongoDB](https://www.mongodb.com/) installed locally or a MongoDB Atlas URI
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd "Employees management system"
+```
+
+### 2. Backend Setup
+```bash
+cd server
+npm install
+```
+Create a `.env` file in the `server` directory and add your environment variables:
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+Start the backend server:
+```bash
+npm run dev
+```
+
+### 3. Frontend Setup
+Open a new terminal window:
+```bash
+cd client
+npm install
+```
+Start the frontend development server:
+```bash
+npm run dev
+```
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+## 📝 License
+This project is ISC licensed.
