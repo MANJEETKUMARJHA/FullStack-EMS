@@ -38,6 +38,37 @@ A comprehensive, full-stack application built to streamline HR processes, manage
 ![Onboarding](./screenshots/onbording.png)
 
 
+## 📁 Project Structure
+
+```text
+Employees management system/
+│
+├── client/                 # Frontend (React + Vite)
+│   ├── public/             # Static assets
+│   ├── src/
+│   │   ├── assets/         # Images, icons, etc.
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Route components (Dashboard, Login, etc.)
+│   │   ├── App.jsx         # Main application and routing
+│   │   ├── index.css       # Global styles (TailwindCSS)
+│   │   └── main.jsx        # React entry point
+│   ├── package.json        # Frontend dependencies
+│   └── vite.config.js      # Vite configuration
+│
+├── server/                 # Backend (Node.js + Express) - WIP
+│   ├── config/             # DB connection and configurations
+│   ├── controllers/        # Request handlers (logic)
+│   ├── middleware/         # Custom middlewares (e.g., auth)
+│   ├── models/             # Mongoose database schemas
+│   ├── routes/             # Express API routes
+│   ├── .env                # Environment variables (create this)
+│   ├── package.json        # Backend dependencies
+│   └── server.js           # Backend entry point
+│
+├── screenshots/            # Demo images for README
+└── README.md               # Project documentation
+```
+
 ## 💻 Technologies Used
 
 **Frontend:**
